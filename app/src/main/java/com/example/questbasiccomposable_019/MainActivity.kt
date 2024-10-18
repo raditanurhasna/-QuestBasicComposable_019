@@ -99,6 +99,12 @@ fun BasicCompose( modifier: Modifier = Modifier) {
 }
 
 @Composable
+fun BasicCompose(name: String, modifier: Modifier = Modifier) {
+    Text(
+        text = "Hello $name!",
+        modifier = modifier
+    )
+}
 
 
 
