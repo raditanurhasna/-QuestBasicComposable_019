@@ -98,14 +98,13 @@ fun BasicCompose( modifier: Modifier = Modifier) {
     }
 }
 
+@Composable
 
 
 
 
 
-    }
 
-    }
 
 
 
