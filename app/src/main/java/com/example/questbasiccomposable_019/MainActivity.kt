@@ -87,6 +87,16 @@ fun BasicCompose( modifier: Modifier = Modifier) {
             fontSize = 20.sp,
             color = Color.Black
         )
+        Image(
+            painterResource(id = R.drawable.fotodita),
+            contentDescription = null,
+            modifier =  Modifier
+                .size(500.dp)
+                .shadow(150.dp, spotColor = Color.Black)
+        )
+
+    }
+}
 
 
 
