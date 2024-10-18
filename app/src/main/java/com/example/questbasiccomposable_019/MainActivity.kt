@@ -55,6 +55,15 @@ fun BasicCompose( modifier: Modifier = Modifier) {
             fontSize = 60.sp,
             color = Color.Black
         )
+        Text(
+            text = "Ini adalah halaman login",
+            style = TextStyle(
+                fontSize = 30.sp,
+                fontStyle = FontStyle.Italic,
+                color = Color.Blue
+            )
+        )
+
 
     }
 
