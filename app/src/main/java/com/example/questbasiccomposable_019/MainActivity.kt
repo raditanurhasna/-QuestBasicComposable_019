@@ -81,6 +81,13 @@ fun BasicCompose( modifier: Modifier = Modifier) {
             fontSize = 30.sp,
             color = Color.Black
         )
+        Text(
+            text = "20220140019",
+            modifier = modifier,
+            fontSize = 20.sp,
+            color = Color.Black
+        )
+
 
 
 
