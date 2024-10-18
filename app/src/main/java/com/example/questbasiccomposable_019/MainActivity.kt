@@ -106,6 +106,12 @@ fun BasicCompose(name: String, modifier: Modifier = Modifier) {
     )
 }
 @Preview(showBackground = true)
+@Composable
+fun GreetingPreview() {
+    QuestBasicComposable_019Theme {
+        BasicCompose("Android")
+    }
+}
 
 
 
