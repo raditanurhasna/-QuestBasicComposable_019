@@ -75,6 +75,13 @@ fun BasicCompose( modifier: Modifier = Modifier) {
             fontSize = 20.sp,
             color = Color.Black
         )
+        Text(
+            text = "Radita Nurhasna",
+            modifier = modifier,
+            fontSize = 30.sp,
+            color = Color.Black
+        )
+
 
 
 
