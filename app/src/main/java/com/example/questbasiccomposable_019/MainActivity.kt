@@ -42,6 +42,15 @@ class MainActivity : ComponentActivity() {
 }
 
 @Preview(showBackground = true)
+@Composable
+fun BasicCompose( modifier: Modifier = Modifier) {
+    Column (
+        verticalArrangement = Arrangement.Center,
+        modifier = Modifier.fillMaxSize(),
+        horizontalAlignment = Alignment.CenterHorizontally
+    ) {
+
+    }
 
 
 
