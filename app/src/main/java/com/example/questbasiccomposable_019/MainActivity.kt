@@ -63,6 +63,13 @@ fun BasicCompose( modifier: Modifier = Modifier) {
                 color = Color.Blue
             )
         )
+        Image(
+            painterResource(id = R.drawable.download),
+            contentDescription = null,
+            modifier =  Modifier
+                .size(200.dp)
+        )
+
 
 
     }
